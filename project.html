@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="명함">
+  <meta property="og:url" content="https://shs9509.github.io/Project/">
+  <meta property="og:description" content="신형식 명함 프로젝트">
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
+  <meta property="og:image" content="./images/썸네일.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
    <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <title>Document</title>
@@ -63,6 +72,87 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </a>
+    </div>
+  </div>
+
+  <div style="margin: 60px 40px 20px">
+    <nav id="navbar-example2" class="navbar navbar-light px-3">
+      <a class="navbar-brand" href="#"></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#ethernet">이더넷스위치</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#namecard">명함</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#RCcar">RC카</a>
+        </li>
+      </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+      <div>
+        <h4 id="ethernet">9포트 이더넷 스위치 설계 및 제작</h4><br><br>
+        <h5>1. 이더넷 스위치란</h5>
+        <p>이더넷 네트워크에서 여러 대의 컴퓨터, 네트워크 장비를 연결하는 장치이다. 
+          같은 기능을 하는 이더넷 허브보다 향상된 네트워크 속도를 나타낸다. <br>
+          이는 각 컴퓨터에서 주고받는 데이터가 데이터를 필요로 하는 컴퓨터에만 전송되기 때문에 빠른 속도를 나타낸다. <br>
+          따라서 연결된 컴퓨터가 많아서 데이터가 지체되며 전송되는 병목 현상이 쉽게 생기지 않는다. <br>
+          대부분 이더넷 스위치는 전이중 통신방식(full duplex)을 지원하기 때문에 송신과 수신이 동시에 일어날 때 더욱 빠른 속도를 제공한다.</p>
+        <hr>
+        <h5>2. 이더넷 스위치 전체적인 진행 예시</h5>
+        <p>  (스위치) 패킷수신 → 수신 패킷의 MAC 주소 획득 → MAC table에 기록 → Destination MAC 주소 확인 (broadcasting)→패킷 broadcast → 해당 목적지 수신 → 목적지의 MAC 주소 포함한 ARP Reply 패킷 발송 → 스위치 패킷수신 → 스위치 패킷 발송
+          이러한 방식 패킷이 교환되며 스위치의 역할을 알 수 있다.</p>
+        <hr>
+        <h5>3. 설계 과정</h5>
+        <p> ORCAD를 사용한 전자회로 설계와 회로 시뮬레이션, 설계된 회로를 가지고 PCB Editor를 통해 실제 부품모형으로 바꾸는 과정으로 진행</p>
+        <h5><완성된 설계도면></h5>
+        <div>
+          <ul class="row" style="margin:10px">
+            <li class="col-4 d-flex justify-content-center flex-column" >IC chip<br><img src="./images/1.png" alt="1"><p class="d-flex justify-content-center" style="margin-top: 10px;">Orcad IC chip 설계</p></li>
+            <li class="col-4 d-flex justify-content-center flex-column" >Power<br><img src="./images/2.png" alt="2"><p class="d-flex justify-content-center" style="margin-top: 10px;">Orcad Power 설계</p></li>
+            <li class="col-4 d-flex justify-content-center flex-column" >Test Pin<br><img src="./images/3.png" alt="3"><p class="d-flex justify-content-center" style="margin-top: 10px;">Orcad Test pin 설계</p></li>
+            <li class="col-4 d-flex justify-content-center flex-column" >Connector<br><img src="./images/4.png" alt="4"><p class="d-flex justify-content-center" style="margin-top: 10px;">Orcad Connector 설계</p></li>
+            <li class="col-4 d-flex justify-content-center flex-column" >Connector<br><img src="./images/5.png" alt="5"><p class="d-flex justify-content-center" style="margin-top: 10px;">PCB editor 설계</p></li>
+          </ul>
+        </div>
+        <hr>
+        <h5>4. 제작 - 납땜</h5>
+        <p>발주한 PCB board와 부품들을 납땜을 진행하여 이더넷 스위치를 제작합니다.</p>
+        <div>
+          <ul class="row" style="margin:10px">
+            <li class="col-5 d-flex justify-content-center flex-column"><br><img src="./images/6.png" alt="6"><p class="d-flex justify-content-center" style="margin-top: 10px;">PCB board</p></li>
+            <li class="col-5 d-flex justify-content-center flex-column"><br><img src="./images/7.png" alt="7"><p class="d-flex justify-content-center" style="margin-top: 10px;">부품납땜 완료한 모습</p></li>
+          </ul>
+        </div>
+        <hr>
+        <h5>5. 디버깅 - Ping test</h5>
+        <div>
+          <ul class="row" style="margin:10px">
+            <li class="col-6 d-flex justify-content-center flex-column"><br><img src="./images/8.png" alt="8"><p class="d-flex justify-content-center" style="margin-top: 10px;"></p>IC chip</li>
+            <li class="col-6 d-flex justify-content-center flex-column"><br><img src="./images/9.png" alt="9"><p class="d-flex justify-content-center" style="margin-top: 10px;"></p>Power</li>
+          </ul>
+        </div>
+        <hr>
+        <h5>6. 결론</h5>
+        <p>포트 수가 적은 이더넷 스위치의 범용성을 높이기 위해서 포트 수를 늘려 9 Port 이더넷 스위치를 제작하는 것을 목표로 하였다.</p>
+        <p>4Port 이더넷스위치의 IC칩인 KZS8795와 5Port 이더넷스위치의 IC칩, KSZ9897를 합쳐서 9port 이더넷 스위치를 설계하였다.</p> 
+        <p>설계하면서 기본적으로 회로를 설계하는 Orcad 프로그램의 숙련이 필요하고 만든 회로를 실제로 PCB로 나타내기 위한 PCB editor에 대해 숙련이 필요로 한다.
+        제작하는 이더넷 스위치는 SPI 기능과 마이크로프로세서와 연결에 MII 통신인터페이스를 가져야 한다는 한계를 가지고 있었다.</p>
+        <p>이에 맞는 칩을 찾고 데이터 시트와 스캐매틱을 분석해서 제작하는 이더넷 스위치에 응용하였다.</p>
+        <p> KSZ8795칩을 가동하기 위해서 2.5V 와 1.2V의 전원 회로를 차용하였고 데이터 시트를 통해서 Reset 설계 가이드라인을 얻고, 이를 통해서 두 개의 칩의 Reset 기능을 다이오드로 묶었다.</p>
+        <p>이더넷 스위치의 성능을 확인하기 위해 Ping test와 FTP 전송을 진행하였다. 디버깅하기 위해서 먼저 멀티미터를 통해 납땜이 제대로 이루어졌는지 확인을 하였다. 그리고 오실로스코프를 통해 voltage의 값과 Reset의 작동을 확인하고 칩의 신호를 확인하기 위해 로직 아날라이저를 사용했다.
+          Ping test는 원활하게 되었고 FTP전송은 11.3MiB/s의 속도로 전송이 되었고 547,818,874바이트를 46초에 전송을 완료하였다.</p> 
+        이를 통해 이더넷 스위치로서 역할을 한다고 볼 수 있다.
+        <hr style="margin-bottom: 40px;">
+      </div>
+
+      <h4 id="namecard">명함프로젝트</h4>
+      <p>추후 추가 예정</p>
+      <hr style="margin-bottom: 40px;">
+      <h4 id="RCcar"> 임베디드 시스템을 통한 도로 경계선 페인팅 RC카</h4>
+      <p>...</p>
+      <hr style="margin-bottom: 40px;">
     </div>
   </div>
   <div>
