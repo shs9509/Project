@@ -2,7 +2,7 @@
 
 ### Home
 
-![home](C:\Users\ssej0\Desktop\pjt_명함\1일차\home.png)
+![home](README.assets/home.png)
 
 - bootstrap 의 컨포넌트 nav를 통해서 상단을 Home, Profile, Project 로 구성하였다.
 - hr 태그를 통해서 구분선을 그었고 이부분에서 원하는 대로 되지 않아 고생했다.
@@ -15,7 +15,7 @@
   - flex 를 이용해서 붙였다가..뗐다가.. 붙였다가... 여러번 반복한 결과
   - 폰아이콘 밑에 링크 세개를 가로로 배치하는 원하는 배치를 얻었다.
 
-![wewe](C:\Users\ssej0\Desktop\pjt_명함\1일차\wewe.png)
+![wewe](README.assets/wewe.png)
 
 ​													배운대로 했는데 맞는 방식인지는 모르겟다.
 
@@ -31,7 +31,7 @@
 
 
 
-![profile](C:\Users\ssej0\Desktop\pjt_명함\1일차\profile.png)
+![profile](README.assets/profile.png)
 
 - profile 페이지는 구상을 디테일하게 안해서 일단 남겨놨다.
 
@@ -43,7 +43,7 @@
 
 ### Project
 
-![화면 캡처 2021-02-10 110714](C:\Users\ssej0\Desktop\pjt_명함\1일차\화면 캡처 2021-02-10 110714.png)
+![화면 캡처 2021-02-10 110714](README.assets/화면 캡처 2021-02-10 110714.png)
 
 - 나를 한참을 고뇌하게 만들었던... 케러셀... 후.
   - 사진의 크기가 안맞아 캐러셀 크기가 계속 바뀌는것
@@ -65,7 +65,7 @@
 
 ### Home
 
-![2일차_home](C:\Users\ssej0\Desktop\pjt_명함\2일차\2일차_home.png)
+![2일차_home](README.assets/2일차_home.png)
 
 - 홈페이지에서 좀부족했던 설명을 추가하였고
   - flex 방향을 세로로 하여서 배치하였다.
@@ -77,7 +77,7 @@
 
 ### Profile
 
-![2일차_profile](C:\Users\ssej0\Desktop\pjt_명함\2일차\2일차_profile.png)
+![2일차_profile](README.assets/2일차_profile.png)
 
 - 어떻게 구성할지 고민들 많이하면서 부트스트랩의 component를 계속 둘러봤다.
   - Popover 를 처음에 고려를 했고
@@ -97,11 +97,11 @@
 
 - Project의 컨텐츠들을 추가했다.
 
-![image-20210215095522219](C:\Users\ssej0\AppData\Roaming\Typora\typora-user-images\image-20210215095522219.png)
+![image-20210215095522219](README.assets/image-20210215095522219.png)
 
 
 
-![image-20210215100159708](C:\Users\ssej0\AppData\Roaming\Typora\typora-user-images\image-20210215100159708.png)
+![image-20210215100159708](README.assets/image-20210215100159708.png)
 
 
 
@@ -121,7 +121,7 @@
 
 ### 사이트의 로고 만들기
 
-![image-20210215100410431](C:\Users\ssej0\AppData\Roaming\Typora\typora-user-images\image-20210215100410431.png)
+![image-20210215100410431](README.assets/image-20210215100410431.png)
 
 - https://www.favicon-generator.org/을 통해서 favicon을 만들어주고
 - 링크를 넣어주고 이미지파일을 프로젝트파일에 넣어준다.
@@ -134,7 +134,7 @@
 
 
 
-![image-20210215100447670](C:\Users\ssej0\AppData\Roaming\Typora\typora-user-images\image-20210215100447670.png)
+![image-20210215100447670](README.assets/image-20210215100447670.png)
 
 - https://developers.kakao.com/
 - meta 데이터를 추가함으로서 사이트의 설명을 넣는다.
@@ -159,7 +159,7 @@
 
 
 
-![image-20210215100527984](C:\Users\ssej0\AppData\Roaming\Typora\typora-user-images\image-20210215100527984.png)
+![image-20210215100527984](README.assets/image-20210215100527984.png)
 
 - https://www.xml-sitemaps.com/details-shs9509.github.io-8e2d2732b.html 
 - 여기서 사이트맵을 생성한다음
